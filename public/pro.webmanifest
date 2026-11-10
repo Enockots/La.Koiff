@@ -1,0 +1,18 @@
+{
+  "id": "/pro.html",
+  "name": "La.Koiff Coiffeur : espace coiffeur",
+  "short_name": "LK Coiffeur",
+  "description": "Recevez les demandes des clients, acceptez-les et partagez votre trajet.",
+  "lang": "fr",
+  "start_url": "/pro.html?source=appli",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A1222",
+  "theme_color": "#0A1222",
+  "icons": [
+    { "src": "icons/pro-icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/pro-icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/pro-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

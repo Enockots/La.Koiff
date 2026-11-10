@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Connexion · La.Koiff</title>
+<meta name="description" content="Connectez-vous ou créez votre compte La.Koiff, client ou coiffeur.">
+<meta name="theme-color" content="#0A1222">
+<link rel="icon" type="image/png" href="icons/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="landing.css">
+<link rel="stylesheet" href="connexion.css">
+</head>
+<body class="landing">
+<header class="lk-header">
+  <div class="wrap lk-header-in">
+    <a class="logo" href="./">La<span class="dot">.</span>Koiff</a>
+    <div class="lk-header-cta"><a class="btn ghost small" href="./">Retour à l'accueil</a></div>
+  </div>
+</header>
+
+<main class="auth-page">
+  <div class="auth-box">
+    <h1 id="auth-title">Connexion</h1>
+    <p class="muted" id="auth-sub">Accédez à votre compte La.Koiff.</p>
+
+    <div class="seg" role="group" aria-label="Type de compte">
+      <button type="button" id="role-client" aria-pressed="true">Je suis client</button>
+      <button type="button" id="role-pro" aria-pressed="false">Je suis coiffeur</button>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Connexion ou inscription">
+      <button type="button" role="tab" id="tab-login" aria-selected="true">Se connecter</button>
+      <button type="button" role="tab" id="tab-signup" aria-selected="false">Créer un compte</button>
+    </div>
+
+    <div id="google-area"></div>
+    <form class="auth-form" id="auth-form" novalidate></form>
+    <p class="sm muted center" id="auth-foot"></p>
+  </div>
+</main>
+
+<div class="toast" id="toast" role="status" hidden></div>
+<script src="data.js"></script>
+<script src="ui.js"></script>
+<script src="connexion.js"></script>
+</body>
+</html>
