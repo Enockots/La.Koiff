@@ -1,0 +1,49 @@
+/* La.Koiff : page Connexion */
+.auth-page{padding-block:40px 64px;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px));display:flex;justify-content:center}
+.auth-box{width:100%;max-width:460px;display:grid;gap:18px;align-content:start}
+.auth-box h1{font-family:var(--f-display);font-weight:800;font-size:clamp(30px,6vw,40px);letter-spacing:-.03em;line-height:1.05;margin:0;text-wrap:balance}
+.auth-box > p{margin:0}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:5px}
+.seg button{border:0;background:transparent;border-radius:12px;padding:12px 10px;font-weight:700;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--primary);color:var(--on-primary)}
+.tabs{display:flex;gap:24px;border-bottom:1px solid var(--line)}
+.tabs button{border:0;background:none;padding:10px 0;font-weight:700;font-size:16px;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--primary)}
+.auth-form{display:grid;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:22px}
+.field{display:grid;gap:6px;margin:0;border:0;padding:0;min-width:0}
+.field label,.field legend{font-size:14px;font-weight:700;color:var(--ink);padding:0}
+.field legend{margin-bottom:8px}
+.field input,.field select{width:100%;border:1.5px solid var(--line);background:var(--bg);border-radius:12px;padding:13px 14px;font-size:16px;color:var(--ink)}
+.field input:focus,.field select:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px color-mix(in srgb,var(--primary) 25%,transparent)}
+.field input::placeholder{color:color-mix(in srgb,var(--muted) 70%,transparent)}
+.field .hint{font-size:13px;color:var(--muted)}
+.pw{position:relative}
+.pw input{padding-right:92px}
+.pw-toggle{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:var(--surface-2);color:var(--ink);border-radius:9px;padding:7px 10px;font-size:13px;font-weight:600}
+.check{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--muted);cursor:pointer}
+.check input{width:20px;height:20px;margin-top:1px;accent-color:var(--primary);flex:none}
+.form-error{background:color-mix(in srgb,var(--bad) 14%,transparent);border:1px solid color-mix(in srgb,var(--bad) 50%,transparent);color:var(--ink);border-radius:12px;padding:10px 12px;font-size:14px}
+.auth-form .btn{padding:16px;font-size:17px}
+.linkbtn.inline{display:inline;padding:0;font-size:inherit}
+.center{text-align:center}
+.specs .chip.chk{position:relative}
+.specs .chip.chk input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer}
+.specs .chip.chk:has(input:checked){background:var(--primary);color:var(--on-primary);border-color:var(--primary)}
+[aria-invalid="true"]{border-color:var(--bad)!important}
+
+/* Google */
+.g-wrap{display:grid;justify-items:center}
+#g-btn:empty{display:none}
+.g-btn{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;border:1.5px solid var(--line);background:#fff;color:#1f1f1f;border-radius:999px;padding:13px 16px;font-weight:600;font-size:16px;font-family:Roboto,var(--f-body)}
+.g-btn:hover{background:#f2f2f2}
+.or{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:13px}
+.or::before,.or::after{content:"";flex:1;height:1px;background:var(--line)}
+.g-linked{display:flex;gap:12px;align-items:flex-start;background:var(--surface-2);border-radius:14px;padding:12px}
+.g-linked .g-logo{flex:none;margin-top:2px}
+.g-linked > span{flex:1;min-width:0;font-size:14px;overflow-wrap:anywhere}
+#google-area{display:grid;gap:16px}
+#google-area:empty{display:none}
+.fb-btn{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;border:0;background:#1877F2;color:#fff;border-radius:999px;padding:13px 16px;font-weight:600;font-size:16px;font-family:Helvetica,Arial,var(--f-body)}
+.fb-btn:hover{background:#166FE5}
+.g-linked svg[viewBox="0 0 24 24"]{background:#1877F2;border-radius:50%;padding:2px}
+.order-note{background:var(--primary-soft);border:1px solid var(--primary);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink)}

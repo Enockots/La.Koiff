@@ -1,0 +1,25 @@
+{
+  "name": "lakoiff",
+  "version": "1.0.0",
+  "description": "La.Koiff : coiffeur à domicile à Kinshasa (site client, espace coiffeur, WhatsApp)",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "add-pro": "node --disable-warning=ExperimentalWarning scripts/add-pro.js",
+    "set-pin": "node --disable-warning=ExperimentalWarning scripts/set-pin.js",
+    "candidatures": "node --disable-warning=ExperimentalWarning scripts/candidatures.js",
+    "abonnement": "node --disable-warning=ExperimentalWarning scripts/abonnement.js",
+    "coiffeurs": "node --disable-warning=ExperimentalWarning scripts/coiffeurs.js",
+    "valider": "node --disable-warning=ExperimentalWarning scripts/valider.js",
+    "commission": "node --disable-warning=ExperimentalWarning scripts/commission.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "google-auth-library": "^9.15.1"
+  }
+}

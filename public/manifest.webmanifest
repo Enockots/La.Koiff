@@ -1,0 +1,22 @@
+{
+  "id": "/",
+  "name": "La.Koiff : coiffeur à domicile",
+  "short_name": "La.Koiff",
+  "description": "Commandez un coiffeur vérifié à domicile à Kinshasa et suivez son arrivée.",
+  "lang": "fr",
+  "start_url": "/app.html?source=appli",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A1222",
+  "theme_color": "#0A1222",
+  "categories": ["lifestyle", "beauty"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Espace coiffeur", "url": "/pro.html", "icons": [{ "src": "icons/pro-icon-192.png", "sizes": "192x192" }] }
+  ]
+}
