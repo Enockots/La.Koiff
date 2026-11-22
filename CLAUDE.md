@@ -24,7 +24,7 @@ Thème sombre unique bleu nuit et jaune. Fond #0A1222, surfaces #111B2E et #1824
 - **Déplacement** : 2 000 FC + 1 000 FC par km, arrondi à 500 FC. Coiffeurs à plus de 25 km non proposés.
 - **Compte client obligatoire pour commander** : au clic sur « Choisir », un visiteur est envoyé sur l'inscription, puis il revient au récapitulatif.
 - **Formules coiffeur, au choix** (`PLANS` dans `data.js`) :
-  - **Simple** : 10 000 FC pour **4 clients garantis**, sans date limite. Une place n'est utilisée que pour une prestation réalisée ; elle est rendue si le client annule ou s'il est absent. Après 4 prestations : « Profil indisponible » jusqu'au renouvellement.
+  - **Simple** : 11 000 FC pour **4 clients garantis**, sans date limite. Une place n'est utilisée que pour une prestation réalisée ; elle est rendue si le client annule ou s'il est absent. Après 4 prestations : « Profil indisponible » jusqu'au renouvellement.
   - **Pro** : 15 $ par mois, clients illimités.
   - **Commission** : 15 % par prestation, rien à payer d'avance ; profil suspendu au-delà de 50 000 FC non payés.
 - **Visibilité d'un coiffeur** : il faut un compte vérifié, une formule active, le mode « Disponible », une photo de profil, et au moins 3 photos de réalisations (20 au maximum).

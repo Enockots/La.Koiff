@@ -1,6 +1,6 @@
 /* La.Koiff : service hors connexion. Les pages et images restent en mémoire sur le téléphone :
    l'appli s'ouvre vite même avec une connexion faible. Les commandes passent toujours par Internet. */
-const VERSION = "lk-v7";
+const VERSION = "lk-v8";
 const CORE = ["./", "index.html", "app.html", "pro.html", "landing.css", "landing.js", "connexion.html", "connexion.css", "connexion.js", "style.css", "data.js", "art.js", "ui.js", "app.js", "pro.js",
   "kinshasa.webp", "manifest.webmanifest", "pro.webmanifest", "offline.html",
   "icons/icon-192.png", "icons/pro-icon-192.png", "icons/favicon.png",

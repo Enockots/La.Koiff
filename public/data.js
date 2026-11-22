@@ -63,7 +63,7 @@ const MAX_KM = 25;              // rayon maximum d'un coiffeur
 /* Abonnements coiffeur (valables 1 mois). Le coiffeur garde 100 % du prix de ses prestations et du déplacement.
    clients : nombre de clients inclus par mois (null = illimité). À modifier ici. */
 const PLANS = {
-  simple: { id:"simple", name:"La.Koiff Simple", price:10000, currency:"FC",  clients:4,    days:30, guaranteed:true },
+  simple: { id:"simple", name:"La.Koiff Simple", price:11000, currency:"FC",  clients:4,    days:30, guaranteed:true },
   pro:    { id:"pro",    name:"La.Koiff Pro",    price:15,    currency:"USD", clients:null, days:30 },
   /* Sans abonnement : le coiffeur verse un pourcentage du prix de chaque prestation réalisée.
      limit : au-delà de ce montant de commissions non payées, son profil est suspendu jusqu'au paiement. */

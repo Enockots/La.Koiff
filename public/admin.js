@@ -30,7 +30,7 @@ function proCard(p){
     ${p.works?.length ? `<div class="thumbs">${p.works.map(w=>`<a href="${esc(w.url)}" target="_blank" rel="noopener"><img src="${esc(w.url)}" alt="Réalisation" loading="lazy"></a>`).join("")}</div>` : ""}
     <div class="actions">
       ${p.verified ? `<button class="btn ghost small" data-act="unverify" data-id="${p.id}">Retirer la vérification</button>` : `<button class="btn small" data-act="verify" data-id="${p.id}">Valider ce coiffeur</button>`}
-      <button class="btn ghost small" data-act="plan" data-plan="simple" data-id="${p.id}">Activer Simple (10 000 FC)</button>
+      <button class="btn ghost small" data-act="plan" data-plan="simple" data-id="${p.id}">Activer Simple (11 000 FC)</button>
       <button class="btn ghost small" data-act="plan" data-plan="pro" data-id="${p.id}">Activer Pro (1 mois)</button>
       ${p.plan!=="commission"?`<button class="btn ghost small" data-act="plan" data-plan="commission" data-id="${p.id}">Passer à la commission</button>`:""}
     </div>

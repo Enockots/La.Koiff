@@ -129,7 +129,7 @@ Le coiffeur **choisit la formule qui lui convient** : à l'inscription (champ «
 
 | Formule | Prix | Clients |
 |---|---|---|
-| **La.Koiff Simple** | 10 000 FC | 4 clients garantis, sans date limite, sans commission |
+| **La.Koiff Simple** | 11 000 FC | 4 clients garantis, sans date limite, sans commission |
 | **La.Koiff Pro** | 15 $ par mois | clients illimités pendant le mois, sans commission |
 | **La.Koiff Commission** | 15 % de chaque prestation réalisée (hors déplacement) | clients illimités, rien à payer d'avance |
 
@@ -165,7 +165,7 @@ Avec un abonnement, il n'y a **pas de commission** : le coiffeur garde 100 % du 
 
 | Abonnement | Prix | Clients |
 |---|---|---|
-| **La.Koiff Simple** | 10 000 FC | 4 clients garantis, sans date limite |
+| **La.Koiff Simple** | 11 000 FC | 4 clients garantis, sans date limite |
 | **La.Koiff Pro** | 15 $ par mois | clients illimités pendant le mois |
 
 - Les prix, le nombre de clients et le numéro de paiement se règlent dans `public/data.js`, blocs `PLANS` et `PAYMENT`.
